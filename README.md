@@ -10,7 +10,7 @@
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SeriesZone101/Inline-Adv-Autofilter-)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Joey730/Inline-Adv-Autofilter)
 ### Hard Way
 
 ```bash
