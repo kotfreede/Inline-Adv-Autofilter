@@ -78,7 +78,7 @@ async def filter(client, message):
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
             await message.reply_photo(
-                photo="https://telegra.ph/file/23618caa467e62c997933.jpg",caption=f"<b>താഴെ കാണുന്ന ബട്ടൺ വഴി നിങ്ങൾക്ക് {search} ‌ലഭിക്കും",\ncaption=f"<b>Here is What I Found In My Database For Your Query {search}",‌‎
+                photo="https://telegra.ph/file/23618caa467e62c997933.jpg",caption=f"<b>താഴെ കാണുന്ന ബട്ടൺ വഴി നിങ്ങൾക്ക് {search} ‌ലഭിക്കും.\nHere is What I Found In My Database For Your Query {search}",‌‎
                 reply_markup=InlineKeyboardMarkup(buttons))
             )
             return
@@ -94,7 +94,7 @@ async def filter(client, message):
         )
 
         await message.reply_photo(
-                photo="https://telegra.ph/file/23618caa467e62c997933.jpg",caption=f"<b>താഴെ കാണുന്ന ബട്ടൺ വഴി നിങ്ങൾക്ക് {search} ‌ലഭിക്കും",\ncaption=f"<b>Here is What I Found In My Database For Your Query {search}",‌‎
+                photo="https://telegra.ph/file/23618caa467e62c997933.jpg",caption=f"<b>താഴെ കാണുന്ന ബട്ടൺ വഴി നിങ്ങൾക്ക് {search} ‌ലഭിക്കും. \nHere is What I Found In My Database For Your Query {search}",‌‎
                 reply_markup=InlineKeyboardMarkup(buttons))
             )    
 
@@ -133,7 +133,7 @@ async def group(client, message):
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
             await message.reply_photo(
-                photo="https://telegra.ph/file/23618caa467e62c997933.jpg",caption=f"<b>താഴെ കാണുന്ന ബട്ടൺ വഴി നിങ്ങൾക്ക് {search} ‌ലഭിക്കും",\ncaption=f"<b>Here is What I Found In My Database For Your Query {search}",‌‎
+                photo="https://telegra.ph/file/23618caa467e62c997933.jpg",caption=f"<b>താഴെ കാണുന്ന ബട്ടൺ വഴി നിങ്ങൾക്ക് {search} •ലഭിക്കും.\nHere is What I Found In My Database For Your Query {search}",‌‎
                 reply_markup=InlineKeyboardMarkup(buttons))
             )
             return
@@ -149,7 +149,7 @@ async def group(client, message):
         )
 
         await message.reply_photo(
-               photo="https://telegra.ph/file/23618caa467e62c997933.jpg",caption=f"<b>താഴെ കാണുന്ന ബട്ടൺ വഴി നിങ്ങൾക്ക് {search} ‌ലഭിക്കും",\ncaption=f"<b>Here is What I Found In My Database For Your Query {search}",‌‎ 
+               photo="https://telegra.ph/file/23618caa467e62c997933.jpg",caption=f"<b>താഴെ കാണുന്ന ബട്ടൺ വഴി നിങ്ങൾക്ക് {search} •ലഭിക്കും.\nHere is What I Found In My Database For Your Query {search}",‌‎ 
                reply_markup=InlineKeyboardMarkup(buttons))
             )
 
