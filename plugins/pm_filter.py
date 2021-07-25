@@ -77,10 +77,10 @@ async def filter(client, message):
             buttons.append(
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
-            await message.reply_text(
-                f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>",
-                reply_markup=InlineKeyboardMarkup(buttons)
-            )
+            await message.reply_photo(
+                
+                photo="https://telegra.ph/file/e3394d709c2f3c9d02d8b.jpg", caption=f"<b>Here is What I Found In My Database For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
+            
             return
 
         data = BUTTONS[keyword]
@@ -93,10 +93,10 @@ async def filter(client, message):
             [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages")]
         )
 
-        await message.reply_text(
-                f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>",
-                reply_markup=InlineKeyboardMarkup(buttons)
-            )    
+        await message.reply_photo(
+                
+                photo="https://telegra.ph/file/e3394d709c2f3c9d02d8b.jpg", caption=f"<b>Here is What I Found In My Database For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
+            
 
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def group(client, message):
@@ -132,10 +132,10 @@ async def group(client, message):
             buttons.append(
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
-            await message.reply_text(
-                f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>",
-                reply_markup=InlineKeyboardMarkup(buttons)
-            )
+            await message.reply_photo(
+                 
+                photo="https://telegra.ph/file/e3394d709c2f3c9d02d8b.jpg", caption=f"<b>Here is What I Found In My Database For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
+            
             return
 
         data = BUTTONS[keyword]
@@ -148,10 +148,10 @@ async def group(client, message):
             [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages")]
         )
 
-        await message.reply_text(
-                f"<b>Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>",
-                reply_markup=InlineKeyboardMarkup(buttons)
-            )
+        await message.reply_photo(
+                
+                photo="https://telegra.ph/file/e3394d709c2f3c9d02d8b.jpg", caption=f"<b>Here is What I Found In My Database For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
+            
 
     
 def get_size(size):
