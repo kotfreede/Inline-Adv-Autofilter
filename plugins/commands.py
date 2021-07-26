@@ -57,7 +57,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Movie Group', url='https://t.me/WorldMovieszZ')
+                        InlineKeyboardButton('Movie Group', url='https://t.me/cinima_lokam_group')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -90,7 +90,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Movie Group", url="https://t.me/WorldMovieszZ")
+                        InlineKeyboardButton("Movie Group", url="https://t.me/cinima_lokam_group")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
