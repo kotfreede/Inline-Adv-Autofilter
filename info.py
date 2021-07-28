@@ -34,7 +34,7 @@ Here you can search files in Inline mode as well as PM, Use the below buttons to
 
 Only WorldMovieszZ Subscribers can use me😊.
 
-If you didn't subscribed, subscribe now :- @WorldMovieszZ
+If you didn't subscribed, subscribe now :- @Moviesz_House
 
 If you don't get your content, contact my admins...feel free to ask them😊.
 
