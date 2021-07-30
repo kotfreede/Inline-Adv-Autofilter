@@ -79,7 +79,7 @@ async def filter(client, message):
             )
             await message.reply_photo(
                 
-                photo="https://telegra.ph/file/1988731a44430f5a033d8.jpg", caption=f"<b>Here is What I Found In My Database For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
+                photo="https://telegra.ph/file/1988731a44430f5a033d8.jpg", caption=f"<b>Here is What I Found For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
             
             return
 
@@ -95,7 +95,7 @@ async def filter(client, message):
 
         await message.reply_photo(
                 
-                photo="https://telegra.ph/file/1988731a44430f5a033d8.jpg", caption=f"<b>Here is What I Found In My Database For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
+                photo="https://telegra.ph/file/1988731a44430f5a033d8.jpg", caption=f"<b>Here is What I Found For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
             
 
 @Client.on_message(filters.group & filters.text & filters.incoming)
@@ -134,7 +134,7 @@ async def group(client, message):
             )
             await message.reply_photo(
                  
-                photo="https://telegra.ph/file/1988731a44430f5a033d8.jpg", caption=f"<b>Here is What I Found In My Database For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
+                photo="https://telegra.ph/file/1988731a44430f5a033d8.jpg", caption=f"<b>Here is What I Found For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
             
             return
 
@@ -150,7 +150,7 @@ async def group(client, message):
 
         await message.reply_photo(
                 
-                photo="https://telegra.ph/file/1988731a44430f5a033d8.jpg", caption=f"<b>Here is What I Found In My Database For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
+                photo="https://telegra.ph/file/1988731a44430f5a033d8.jpg", caption=f"<b>Here is What I Found For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
             
 
     
