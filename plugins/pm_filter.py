@@ -259,7 +259,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Source Code', url='https://t.me/sourcecodeveno')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/DeepakV1111_bot'>Joey</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/sourcecodeveno'>Click Here</a>\nUpdate Channel : <a href='https://t.me/movieszzzone'>Join</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer🧑‍💻 : <a href='https://t.me/DeepakV1111_bot'>Joey</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/sourcecodeveno'>Click Here</a>\nUpdate Channel : <a href='https://t.me/movieszzzone'>Join</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -272,7 +272,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 caption = files.caption
                 buttons = [
                     [
-                        InlineKeyboardButton('Series Channel', url='https://t.me/ONLYMHSERIES'),
+                        InlineKeyboardButton('🔶Series Channel🔶', url='https://t.me/ONLYMHSERIES'),
                         InlineKeyboardButton('Update Channel', url='https://t.me/movieszzzone')
                     ]
                     ]
@@ -296,7 +296,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 caption = files.caption
                 buttons = [
                     [
-                        InlineKeyboardButton('Series Channel', url='https://t.me/ONLYMHSERIES'),
+                        InlineKeyboardButton('🔶Series Channel🔶', url='https://t.me/ONLYMHSERIES'),
                         InlineKeyboardButton('Update Channel', url='https://t.me/movieszzzone')
                     ]
                     ]
