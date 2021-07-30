@@ -90,7 +90,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Seriee Channel", url="https://t.me/ONLYMHSERIES")
+                        InlineKeyboardButton("Series Channel", url="https://t.me/ONLYMHSERIES")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
