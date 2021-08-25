@@ -57,7 +57,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('🔶JOIN GROUP🔶', url='https://t.me/cinima_lokam_group")
+                        InlineKeyboardButton('🔶JOIN GROUP🔶', url='https://t.me/cinima_lokam_group')
                     ]
                     ]
                 await bot.send_cached_media(
