@@ -79,7 +79,7 @@ async def filter(client, message):
             )
             await message.reply_photo(
                 
-                photo="https://telegra.ph/file/1988731a44430f5a033d8.jpg", caption=f"<b>Here is What I Found For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
+                photo="https://telegra.ph/file/28e3b2d3ed791aeb5e27d.jpg", caption=f"<b>Here is What I Found For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
             
             return
 
@@ -95,7 +95,7 @@ async def filter(client, message):
 
         await message.reply_photo(
                 
-                photo="https://telegra.ph/file/1988731a44430f5a033d8.jpg", caption=f"<b>Here is What I Found For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
+                photo="https://telegra.ph/file/28e3b2d3ed791aeb5e27d.jpg", caption=f"<b>Here is What I Found For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
             
 
 @Client.on_message(filters.group & filters.text & filters.incoming)
@@ -134,7 +134,7 @@ async def group(client, message):
             )
             await message.reply_photo(
                  
-                photo="https://telegra.ph/file/1988731a44430f5a033d8.jpg", caption=f"<b>Here is What I Found For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
+                photo="https://telegra.ph/file/28e3b2d3ed791aeb5e27d.jpg", caption=f"<b>Here is What I Found For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
             
             return
 
@@ -150,7 +150,7 @@ async def group(client, message):
 
         await message.reply_photo(
                 
-                photo="https://telegra.ph/file/1988731a44430f5a033d8.jpg", caption=f"<b>Here is What I Found For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
+                photo="https://telegra.ph/file/28e3b2d3ed791aeb5e27d.jpg", caption=f"<b>Here is What I Found For Your Query {search} ", reply_markup=InlineKeyboardMarkup(buttons))
             
 
     
@@ -255,7 +255,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/movieszzzone'),
+                    InlineKeyboardButton('Update Channel', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl'),
                     InlineKeyboardButton('Source Code', url='https://t.me/sourcecodeveno')
                 ]
                 ]
@@ -272,8 +272,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 caption = files.caption
                 buttons = [
                     [
-                        InlineKeyboardButton('🔶Series Channel🔶', url='https://t.me/ONLYMHSERIES'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/movieszzzone')
+                        InlineKeyboardButton('🔶JOIN GROUP🔶', url='https://t.me/cinima_lokam_group'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl')
                     ]
                     ]
                 
@@ -296,8 +296,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 caption = files.caption
                 buttons = [
                     [
-                        InlineKeyboardButton('🔶Series Channel🔶', url='https://t.me/ONLYMHSERIES'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/movieszzzone')
+                        InlineKeyboardButton('🔶JOIN GROUP🔶', url='https://t.me/cinima_lokam_group'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/joinchat/Wl2qJsJpNhg0OWVl')
                     ]
                     ]
                 
