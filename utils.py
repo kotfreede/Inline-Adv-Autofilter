@@ -47,7 +47,7 @@ async def save_file(media):
             file_size=media.file_size,
             file_type=media.file_type,
             mime_type=media.mime_type,
-            caption="🔰MH Channel🔰: @ONLYMHSERIES \n 🔰MH Group🔰: @Moviesz_House",
+            caption="🔸Group🔸: @cinima_lokam_group \n🔹Channel🔹 : [https://t.me/joinchat/Wl2qJsJpNhg0OWVl] \n📽️ 🄲🄸🄽🄸🄼🄰 🄻🄾🄺🄰🄼",
         )
     except ValidationError:
         logger.exception('Error occurred while saving file in database')
