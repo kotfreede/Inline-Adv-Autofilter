@@ -57,7 +57,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again🔎', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('🔶JOIN GROUP🔶', url='https://t.me/cinima_lokam_group')
+                        InlineKeyboardButton('🔶JOIN GROUP🔶', url='https://t.me/KOT_MOVIES_DISSECTION')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -90,7 +90,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("🔶JOIN GROUP🔶", url="https://t.me/cinima_lokam_group")
+                        InlineKeyboardButton("🔶JOIN GROUP🔶", url="https://t.me/KOT_MOVIES_DISSECTION")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -183,8 +183,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/movieszzzone'),
-            InlineKeyboardButton('Source Code📜', url='https://t.me/sourcecodeveno')
+            InlineKeyboardButton('Update Channel', url='https://t.me/KOT_BOTS'),
+            InlineKeyboardButton('Source Code📜', url='https://t.me/KING_OF_THE_CARTOONS_CHANNEL')
         ]
         ]
-    await message.reply(text="<b>Developer🧑‍💻 : <a href='https://t.me/DeepakV1111_bot'>Joey</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code📜 : <a href='https://t.me/sourcecodeveno'>Click Here</a>\nUpdate Channel : <a href='https://t.me/movieszzzone'>Join</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer🧑‍💻 : <a href='https://t.me/KOT_FREE_DE_LA_HOYA_OFF'>Joey</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code📜 : <a href='https://t.me/KING_OF_THE_CARTOONS_CHANNEL'>Click Here</a>\nUpdate Channel : <a href='https://t.me/KOT_BOTS'>Join</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
